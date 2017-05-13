@@ -1,0 +1,3 @@
+<tr>	<td class="style2" ><img src="ph/vokna/13_b.jpg" width="200" border="0" alt="Кораблик ''Кронверк'' вблизи школы"></a>	</TD>
+<tr>	<td class="style2" ><img src="ph/vokna/14_b.jpg" width="280" border="0" alt="Отражение шпиля Адмиралтейства"></a>	</TD>
+	<img src="ph/vokna/12_b.jpg" width="150"  border="0" alt="Спуск к Неве напротив школы"  ></a>	

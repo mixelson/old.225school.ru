@@ -1,0 +1,376 @@
+body {
+	color: #060660; 
+	font-family: Verdana; 
+	background-color: #8aadd1;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	}
+
+
+.lmenu 		/*для главного меню*/
+	{
+	background-color: #90a0b5;
+	border: 1px solid #060660;
+	background-image: url(pic/index-6x11.gif);
+	}
+
+.fortekst	/*для центральной ячейки*/
+	{
+	background-color: #8aadd1;
+	border-top: 1px solid #060660;
+	border-bottom: 1px solid #060660;
+	text-align: top;
+	}
+
+.rmenu 		/*для правой ячейки*/
+	{
+	background-color: #90a0b5;
+	border: 1px solid #060660;
+	text-valign: top;
+	background-image: url(pic/index-8x6.gif);
+	}
+
+table {	font-size: 12; 
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 10;
+	spacing: 0;
+	border-collapse: collapse;
+	vertical-align: top;
+	}
+
+thead 	{
+	background-color: #425a86; 
+	text-align: center;
+	font-size: 13; 
+	font-weight: bold; 
+	color: #ffffff; 
+	font-family: Verdana, Tahoma, sans-serif;
+	}
+
+tfoof 	{
+	background-color: #425a86; 
+	text-align: center;
+	font-size: 12; 
+	font-weight: bold; 
+	color: #ffffff; 
+	font-family: Verdana, Tahoma, sans-serif;
+	}
+
+td	{
+	padding: 7;
+	vertical-align: top;
+	}
+	
+th	{
+	padding: 7;
+	text-align: center; 
+	}
+
+/*таблица 100% по высоте и ширине*/
+.all	{
+	height: 100%;
+	width:100%;
+	}
+
+
+.tdlight	/*для осветления фона через строчку в таблице*/
+	{background-color: #92b4d9;
+	}
+
+.tdlight1	/*для осветления фона через строчку в таблице с двойной рамкой снизу*/
+	{background-color: #92b4d9;
+	border-bottom: 3px double #060660;
+	}
+
+.tdlight2	/*двойной рамкой снизу*/
+	{border-bottom: 3px double #060660;
+	}
+
+a:link  {
+	font-size: 1em; 
+	color: #060660; 
+	font-family: Verdana, Tahoma, sans-serif; 
+	font-weight: medium; 
+	text-decoration: none;
+	}
+
+a:visited  
+	{
+	font-size: 1em; 
+	color: #060660; 
+	font-family: Verdana, Tahoma, sans-serif; 
+	font-weight: medium; 
+	text-decoration: none;
+	}
+
+a:hover  
+	{
+	font-size: 1em; 
+	color: #060660; 
+	font-family: Verdana, sans-serif; 
+	font-weight: medium; 
+	text-decoration: none;
+	}
+
+p 	{	
+	font-size: 1em;
+	margin-top: 3px; 
+	padding-top:3px; /*для оперы в IE не видно*/
+	margin-bottom: 3px;
+	padding-bottom:3px; /*для оперы в IE не видно*/
+	text-align: justify;
+	}
+
+h1 	{
+	text-align: left; 
+	font-size: 1.35em; 
+	color: #ffffff; 
+	font-family:  Verdana,Arial
+	}
+
+h2 	{
+	text-align: left;
+	font-size: 1.25em; 
+	color: #ffffff; 
+	font-family: Verdana,Arial;
+	margin-bottom: 5px;
+	}
+
+h3 	{
+	text-align: left;
+	font-size: 1.20em; 
+	color: #fdf7c7; 
+	font-family: Verdana,Arial;
+	font-width: bold
+	margin-bottom: 0px;
+	}
+
+h4 	{
+	text-align: left;
+	font-size: 1.125em; 
+	color: #ffffff; 
+	font-family: Verdana,Arial;
+	font-width: bold;
+	margin-bottom: 0px;
+	}
+
+h5 	{
+	text-align: center;
+	font-size: 1.125em; 
+	color: #ffffff; 
+	font-family: Verdana,Arial;
+	margin-bottom: 0px;
+	}
+
+h6 	{
+	text-align: center;
+	font-size: 1.25em; 
+	color: #060660; 
+	font-family: Verdana,Arial;
+	font-width: bold;
+	margin-bottom: 20px;
+	}
+
+
+
+hr	{
+	color: #fae89e;
+	background-color: #90a0b5;  /*для оперы в IE не видно*/
+	height: 1px;
+	border-width:1px; /* рамки вокруг элемента для оперы*/
+	}
+
+blockquote
+	{
+	margin-top: 0px; 
+	padding-top:0px; /*для оперы в IE не видно*/
+	margin-bottom: 0px;
+	padding-bottom:0px; /*для оперы в IE не видно*/
+	}
+	
+/* список с рисунком */
+ul 	{
+	list-style: none; 
+	padding-left:5px;/*для оперы в IE не видно*/
+	padding-top:0px;/*для оперы в IE не видно*/
+	margin-top: 0px;
+	margin-left: 5px;
+	font-size: 1em; 
+	} 
+
+/* только для вложенного в ul */
+ul li	{
+    	padding-left:15px; /* отступ от маркера */
+   	 background:url(pic/14_2.gif) no-repeat left center; /* задаем фон */
+	}
+
+/* список с номерами */
+ol 	{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+
+.style1	{
+	filter:dropshadow(color="#708080",offx="1",offy="1",positive="1")
+	}
+
+
+.style4	{
+	font-size: 1em; 
+	color: #ffffff; 
+	font-family:  Verdana, Arial; 
+	font-style:italic
+	} 
+
+/* ссылка 1 уровня в правом меню */
+.white	{color: #ffffff; 
+	font-family: Arial;
+	font-style:normal;
+	font-size: 1em;
+	margin-left: 0px;
+	}
+
+/* ссылка 2 уровня в правом меню */
+.white1	{color: #ffffff; 
+	font-family: Arial;
+	font-style:normal;
+	font-size: 1em;
+	margin-left: 8px;
+	}
+
+/* страница 1 уровня в правом меню */
+.blue	{
+	color: #060660; 
+	font-family: Arial;
+	font-style:normal;
+	font-size: 1em;
+	margin-left: 0px;
+	}
+
+/* страница 2 уровня в правом меню */
+.blue1	{
+	color: #060660; 
+	font-family: Arial;
+	font-style:normal;
+	font-size: 1em;
+	margin-left: 8px;
+	}
+
+.whiteh2 {
+	text-align: left;
+	font-size: 1.125em; 
+	color: #ffffff; 
+	font-family: Verdana,Arial;
+	font-weight: bold; 
+	margin-bottom: 0px;
+	}
+
+/* портреты в коллективе */
+.imgkol {
+	border: ridge;
+	border-color: #90a0b5;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+	height: 200px;
+	}
+
+/* фото по правому краю */
+.imgr {
+	border: ridge;
+	border-color: #90a0b5;
+	margin-top: 7px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	float: right;
+	}
+
+/* фото по правому краю без рамки*/
+.imgr {
+	margin-top: 7px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	float: right;
+	}
+
+/* фото по левому краю */
+.imgl {
+	border: ridge;
+	border-color: #90a0b5;
+	margin-top: 7px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	float: left;
+	}
+
+/* фото по левому краю без рамки */
+.imgr1 {
+	margin-top: 7px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	float: right;
+	}
+
+/* фото по левому краю */
+.imgc {
+	border: ridge;
+	border-color: #90a0b5;
+	margin-top: 7px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	}
+
+.ramka2	{
+	border: inset;
+	border-color: #90a0b5;
+	float: center;
+	}
+
+
+/* хлебные крошки ссылки */
+span.kroshki	{
+	font-size: 0.95em; 
+	color: #060660; 
+	font-family: Verdana, Tahoma, sans-serif; 
+	font-weight: medium; 
+	text-decoration: underline;
+	}
+
+/* хлебные крошки страница */
+span.kroshki1	{
+	font-size: 0.95em; 
+	color: #060660; 
+	font-family: Verdana, Tahoma, sans-serif; 
+	font-weight: medium; 
+	text-decoration: none;
+	}
+
+span.und	{
+	text-decoration: underline;
+	}
+
+.otst	{
+	margin-left: 75px;
+	}
+
+.otstmini	{
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+.otstmidl	{
+	margin-left: 40px;
+	}
+
+.karta	{	
+	margin-bottom: 2px;
+	margin-top: 3px;
+	margin-left: 20px;
+	text-align: left	
+	list-style-image: url(pic/14_2.gif);
+	}
+
+
+</style>
